@@ -1,4 +1,4 @@
-# Dashboard de ventas multi-sucursal - Proyecto Excel
+# Dashboard de ventas multi-sucursal - Excel
 
 Este proyecto pone de manifiesto mis habilidades en Excel, y su potencial para el análisis de
  datos a partir de un dashboard interactivo que permita observar el rendimiento
