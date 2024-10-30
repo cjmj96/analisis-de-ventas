@@ -1,107 +1,146 @@
-# Dashboard de ventas multi-sucursal - Excel
+# Análisis de ventas para Costa Centro Comercio (CCC)
 
-Este proyecto pone de manifiesto mis habilidades en Excel, y su potencial para el análisis de
- datos a partir de un dashboard interactivo que permita observar el rendimiento
- de ventas de una compañía con sucursales a Barcelona, Madrid y Valencia, a lo
- largo del año 2019. Este dashboard permite visualizar qué se dió en términos
- de rendimiento respecto a los indicadores clave de rendimiento (KPI), así como
- mostrar las tendencias por sucursal y por línea de producto para la toma de decisiones en el negocio. 
+## Antecedentes y visión general
+
+
+En el corazón de la península ibérica, donde la vibrante costa mediterránea se encuentra con la energía del centro, emerge Costa Centro Comercio (CCC), una compañía líder en la oferta de productos y servicios diversificados. Con una fuerte presencia en tres de los nodos urbanos más dinámicos de España - Barcelona, Madrid y Valencia - CCC se posiciona como el puente perfecto entre la innovación costera y la solidez del centro, brindando a sus clientes una experiencia de compra única y integral.
+
+La compañía tiene cantidades masivas de información detallada e informativa de sus ventas. Este proyecto analiza detalladamente esa información para producir un reporte anual que determine áreas para mejorar.
+
+Los descubrimientos y recomendaciones son proporcionadas en las siguientes áreas claves:
+
+- Rendimiento general de ventas: ofrece métricas como el total de los ingresos, costo de venta, utilidad y % utilidad en el transcurso del año.
+
+- Análisis por línea de producto: ofrece las métricas anteriores por línea de producto, por género y línea de producto.
+
+- Análisis de patrones de los clientes: ofrece la distribución de ventas por tipo de cliente.
+
+- Análisis de medios de pagos: ofrece la distribución de ventas por tipo de medio de pago.
+
+Para poder facilitar la toma de decisiones de la compañía al entender mejor sus ventas, se creó un dashboard, que ofrece distintos gráficos y métricas claves relevantes para las partes interesadas.
+
+
+## Estructura de datos y exploraciones iniciales
  
-**Objetivos del proyecto:**
-
-- Demostrar el manejo de limpieza de los datos, manipulación y análisis de datos a través de Excel.
-- Usar funciones avanzadas de Excel como Tablas dinámicas, gráficos, fórmulas y demás para resumir y visualizar los datos de ventas.
-- Construir un dashboard interactivo de segmentación de datos y filtros que permitan a los usuarios navegar a través de los datos reflejados por distinta sucursal, línea de producto, etc.
-- Obtener información contrastante de las tendencias en los datos de ventas, los productos más vendidos, la rentabilidad por sucursal y línea de producto.
-- Exponer la información obtenida a través de gráficos y tablas que sean visualmente interesantes pero que contengan la información de una manera clara y concisa.
-
-**Conjunto de datos:**
-
-Se utiliza en este caso un conjunto de datos simulado que contiene las transacciones de ventas de la compañía a lo largo del año 2019. El conjunto de datos contiene los siguientes campos de información:
-
-- **Fecha:** Fecha de la transacción.
-- **Sucursal:** Barcelona, Madrid o Valencia.
-- **Línea de producto:**
-  - Accesorios de moda
-  - Accesorios electrónicos
-  - Comidas y bebidas
-  - Deportes y viajes
-  - Hogar y estilo de vida
-  - Salud y belleza
-- **Medio de pago:** Efectivo, Tarjeta de Crédito, etc.
-- **Precio unitario:** Precio de venta a la unidad.
-- **Cantidad:** Unidades vendidas.
-- **Total venta:** Total por la transacción.
-- **Costo de venta:** Costo asociado a la producción o adquisición del producto.
-- **Margen Bruto (%):** (Total Venta - Costo de Venta) / Total Venta * 100
-- **Utilidad:** Total Venta - Costo de Venta 
+Se utilizó un conjunto de datos que contiene las transacciones de ventas de la compañía a lo largo del año 2019. Contiene los siguientes campos de información:
 
 
-**Características del Dashboard:**
+**Tabla de Campos y Propósitos**
+| **Campo** | **Propósito** |
+| --- | --- |
+| **Fecha** | Registra la fecha en la que se realizó la transacción, permitiendo el análisis temporal de las ventas |
+| **Sucursal** | Identifica la ubicación geográfica (Barcelona, Madrid o Valencia) donde se llevó a cabo la transacción, facilitando análisis regionales y de desempeño por sucursal |
+| **Línea de producto** | Clasifica el producto vendido en una de las categorías predefinidas (Accesorios de moda, Accesorios electrónicos, Comidas y bebidas, Deportes y viajes, Hogar y estilo de vida, Salud y belleza), permitiendo el análisis de ventas por tipo de producto y la identificación de tendencias en diferentes sectores |
+| **Medio de pago** | Registra el método utilizado por el cliente para realizar el pago (Efectivo, Tarjeta de Crédito, etc.), ayudando a entender las preferencias de pago de los clientes y a optimizar los métodos de pago disponibles |
+| **Precio unitario** | Especifica el precio de venta de un solo artículo, necesario para calcular totals y analizar la rentabilidad por unidad |
+| **Cantidad** | Indica la cantidad de unidades vendidas en una transacción, crucial para calcular el total de la venta y analizar volúmenes de ventas |
+| **Total venta** | Muestra el monto total de la transacción, resultante de multiplicar el precio unitario por la cantidad vendida, utilizado para el cálculo de ingresos y análisis de ventas |
+| **Costo de venta** | Registra el costo asociado a la producción o adquisición del producto vendido, esencial para calcular la utilidad y el margen bruto, y evaluar la rentabilidad de los productos |
+| **Margen Bruto (%)** | Calcula el porcentaje de ganancia sobre el total de la venta, después de restar el costo de venta, proporcionando una medida rápida de la rentabilidad de cada transacción |
+| **Utilidad** | Muestra la ganancia neta obtenida en una transacción, resultante de restar el costo de venta del total de la venta, utilizado para evaluar la rentabilidad y tomar decisiones de precios y de producción |
 
-El dashboard interactivo incluye las siguientes especificaciones:
+## Resumen ejecutivo
 
-**Rendimiento general de ventas:**
+### Visión general de descubrimientos
 
-- Total de los ingresos por sucursal y por línea de producto.
 
-- Tendencias de ventas mensuales en el transcurso del año.
+El análisis integral del desempeño comercial durante 2021 revela un panorama empresarial
+estable con áreas estratégicas de oportunidad para Costa Centro Comercio (CCC). Con unas
+ventas totales de €164,998 y un beneficio de €7,857, la empresa mantuvo un margen de
+beneficio del 4.76%, destacándose la categoría de Deportes y Viajes como la líder en
+ventas con €30,078. La segmentación por género mostró patrones de consumo diferenciados,
+con los hombres prefiriendo Deportes y viajes (€15,568) y las mujeres inclinándose hacia Comida y
+bebidas (€15,728). Los métodos de pago reflejan una transición gradual hacia
+la digitalización, con el efectivo liderando con un 37%, seguido por las
+billeteras electrónicas (33%) y las tarjetas de crédito (30%). La base de
+clientes muestra un notable equilibrio entre usuarios regulares (50.09%) y
+miembros (49.91%), mientras que la distribución semanal de ventas identifica
+los martes, viernes y sábados como los días de mayor actividad comercial, con
+picos de hasta €27,018, en contraste con los jueves que registran el volumen
+más bajo (€17,608). Las siguientes secciones explorarán factores y resaltar áreas de oportunidad
+claves para mejorar.
 
-**Análisis por línea de producto:**
+Abajo esta el dashboard realizado en Excel. El dashboard interactivo completo puede ser visto [aquí](https://1drv.ms/x/s!ApUe3nTukn-rawkMI6-e0Z-Xsdo?e=zGF9zV).
 
-- Productos más vendidos por ingresos y más vendidos por cantidad en cada sucursal.
+<iframe width="700" height="720" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=AB7F92EE74DE1E95%21107&authkey=%21AC0uTSvpVK_PwuE&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
 
-- Participación que tiene cada línea de producto en los ingresos totales.
+### Análisis de las KPIs
 
-- Margen de bruto promedio de cada línea de producto.
 
-**Análisis de Rentabilidad:**
+En 2021, la empresa logró unas ventas totales de €164,998, con un costo de ventas de €157,141 y 
+un beneficio resultante de €7,857. Esto se traduce en un margen de beneficio del 4.76%, que es 
+bajo, pero aún así es alentador.
 
-- Total de la utilidad por sucursal y línea de producto.
+### Análisis de líneas de productos
 
-- Análisis del margen de bruto por sucursal y por línea de producto.
+Las diversas líneas de productos se analizan en un análisis detallado y muestran una tendencia 
+uniforme en todas las categorías. Deportes y viajes encabezan la lista con ventas de €30,078 y 
+una ganancia de €1,432. Los siguientes contendientes, Hogar y estilo de vida y Salud y belleza, 
+lograron cada uno alcanzar ventas por valor de €28,487 y ganaron €1,357 cada uno en 
+beneficios. Los sectores conocidos como Alimentos y bebidas lograron vender mercancías por un 
+valor de €28,328 junto con un beneficio de €1,349. Los márgenes de beneficio en las diferentes 
+categorías se mantienen estables entre el 4.7% y el 4.8%, lo que muestra que la empresa utiliza un enfoque de precios similar.
 
-- Los productos y sucursales que generan más rentabilidad.
+![distribucion-de-kpis-por-linea-de-producto](./distribucion-de-kpis-por-linea-de-producto.PNG)
 
-**Patrones del cliente:**
 
-- Preferencia del pago por sucursal.
+### Análisis por género y producto
 
-**Filtros interactivos:**
+Los patrones de consumo son diferentes cuando se trata de género. Los niveles de género masculino 
+tuvieron la mayor demanda en Deportes y Viajes con €15,568, mientras que Salud y Belleza y Accesorios 
+de Moda fueron de €13,669 y €13,468 respectivamente. Las mayores ventas fueron de Alimentos y Bebidas 
+entre los Niveles Femeninos con €15,728, seguidas por Hogar y Estilo de Vida con €15,142, mientras 
+que Deportes y Viajes ganaron €14,510 en el mismo segmento. 
 
-- Segmentación de los datos para poder filtrar por sucursal, línea de producto, género y tipo de cliente.
+![3-lineas-de-productos-mas-vendidos-por-ingresos-y-genero](./3-lineas-de-productos-mas-vendidos-por-ingresos-y-genero.PNG)
 
-- Gráficos y tablas que se actualizan de forma interactiva a raíz de las selecciones de los filtros.
+### Análisis de métodos de pago
 
-Habilidades que se muestran:
 
-- Limpieza y preparación de los datos: Identificar los duplicados, identificar los valores que faltan y el formateado de datos.
 
-- Tablas dinámicas: Crear y poder utilizar tablas dinámicas para resumir y analizar la información de ventas de forma rápida.
+La distribución de los pagos muestra una preferencia significativa por el efectivo, representando el 
+37% de las transacciones, seguido por las billeteras electrónicas con un 33% y las tarjetas de 
+crédito con un 30%.
 
-- Gráficos y tablas: Crear gráficos (ej., gráficos en líneas, en barras, en circulares) que sean atractivos a nivel de presentación y que sirvan para representar tendencias y insights de ventas.
+![distribucion-de-ventas-por-medio-de-pago](./distribucion-de-ventas-por-medio-de-pago.PNG)
 
-- Fórmulas y Funciones: Usar las fórmulas de Excel como la suma, promedio, contar.sí, buscarv; 
-hacer cálculos y manipular datos.
 
-- Diseño para el Dashboard; Crear un diseño de dashboard que sea muy atractivo y fácil de usar con segmentaciones de datos y filtros. 
+### Análisis por tipo de cliente
 
-Resultados del proyecto:
 
-El dashboard de ventas multi-sucursal ofrece una visión general del rendimiento de un negocio en el año 2019 en su totalidad. 
-Los resultados generados a partir del dashboard pueden utilizarse para:
-a) Detectar oportunidades de crecimiento y oportunidades de mejora por sucursal y línea de productos.
-b) Tener control sobre la mezcla de productos y la estrategia de precios.
-c) Orientar las acciones de marketing que se llevan a cabo en cada sucursal.
-d) Aumentar la eficiencia operativa de las distintas sucursales.
-e) Toma de decisiones basada en datos para aumentar la rentabilidad del negocio.
 
-Mejoras futuras:
+La distribución entre clientes regulares (50.09%) y miembros (49.91%) muestra un equilibrio casi 
+perfecto en la base de clientes.
 
-a) Incluir datos externos como la demografía o datos económicos para un análisis más completo.
-b) Llevar a cabo predicciones para identificar tendencias futuras de ventas.
-c) Mejorar las visualizaciones así como los elementos interactivos para ofrecer un análisis más pormenorizado.
+![distribucion-de-ventas-por-tipo-de-clientes](./distribucion-de-ventas-por-tipo-de-clientes.PNG)
 
-Este proyecto muestra que soy capaz de utilizar las potentes funcionalidades de Excel para analizar datos
- reales y presentar descubrimientos significativos para la toma de decisiones de negocio. Estoy seguro que
- estas capacidades se pueden aplicar a un gran número de tareas de análisis de datos en distintas industrias.
+
+### Análisis por día de la semana
+
+
+
+El patrón de ventas semanales muestra picos notables los martes (€27,018), viernes y 
+sábados (ambos con €26,007). El domingo mantiene un volumen respetable de €23,434, 
+mientras que el jueves registra el volumen más bajo con €17,608. 
+
+![distribucion-de-ventas-por-dia-de-la-semana](./distribucion-de-ventas-por-dia-de-la-semana.PNG)
+
+
+## Recomendaciones
+
+En consideración de los hallazgos derivados del estudio, las siguientes son recomendaciones importantes clasificadas por áreas estratégicas: 
+
+1. Optimización financiera:
+  1.1 Aumentar el margen existente del 4.76% mediante un estudio de costos realizado y negociaciones con proveedores.
+  1.2 Establecer un sistema de compras por volumen en las categorías de mejor rendimiento.
+
+2. Segmentación y marketing:
+  2.1 Orientar campañas a géneros específicos: Deportes/Viajes para hombres y Comida/Hogar para mujeres.
+
+3. Optimización operativa:
+  4.1 Adicionar promociones en ciertos días (especialmente jueves) que generan menos tráfico.
+  4.2 Mantener un registro de los niveles de stock por categoría y reponer el stock según el pronóstico de ventas en días específicos.
+
+4. Experiencia del cliente:
+  5.1 Rediseñar el diseño de la tienda dependiendo del género objetivo.
+  5.2 Establecer un sistema de re-evaluación y revisión.
