@@ -62,7 +62,8 @@ claves para mejorar.
 
 Abajo esta el dashboard realizado en Excel. El dashboard interactivo completo puede ser visto [aquí](https://1drv.ms/x/s!ApUe3nTukn-rawkMI6-e0Z-Xsdo?e=zGF9zV).
 
-<iframe width="700" height="720" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=AB7F92EE74DE1E95%21107&authkey=%21AC0uTSvpVK_PwuE&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
+
+<iframe src="https://1drv.ms/x/s!ApUe3nTukn-ray0uTSvpVK_PwuE?embed=1&em=2" width="402" height="346" frameborder="0" scrolling="no"></iframe>
 
 ### Análisis de las KPIs
 
@@ -131,16 +132,17 @@ mientras que el jueves registra el volumen más bajo con €17,608.
 En consideración de los hallazgos derivados del estudio, las siguientes son recomendaciones importantes clasificadas por áreas estratégicas: 
 
 1. Optimización financiera:
+
   1.1 Aumentar el margen existente del 4.76% mediante un estudio de costos realizado y negociaciones con proveedores.
+  
   1.2 Establecer un sistema de compras por volumen en las categorías de mejor rendimiento.
 
 2. Segmentación y marketing:
+  
   2.1 Orientar campañas a géneros específicos: Deportes/Viajes para hombres y Comida/Hogar para mujeres.
 
 3. Optimización operativa:
+  
   4.1 Adicionar promociones en ciertos días (especialmente jueves) que generan menos tráfico.
+  
   4.2 Mantener un registro de los niveles de stock por categoría y reponer el stock según el pronóstico de ventas en días específicos.
-
-4. Experiencia del cliente:
-  5.1 Rediseñar el diseño de la tienda dependiendo del género objetivo.
-  5.2 Establecer un sistema de re-evaluación y revisión.
