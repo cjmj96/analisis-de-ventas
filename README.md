@@ -62,8 +62,7 @@ claves para mejorar.
 
 Abajo esta el dashboard realizado en Excel. El dashboard interactivo completo puede ser visto [aquí](https://1drv.ms/x/s!ApUe3nTukn-rawkMI6-e0Z-Xsdo?e=zGF9zV).
 
-
-<iframe src="https://1drv.ms/x/s!ApUe3nTukn-ray0uTSvpVK_PwuE?embed=1&em=2" width="402" height="346" frameborder="0" scrolling="no"></iframe>
+[![Dashboard de analisis de ventas](./dashboard-analisis-de-ventas.PNG)](https://1drv.ms/x/s!ApUe3nTukn-rawkMI6-e0Z-Xsdo?e=patDZ5)
 
 ### Análisis de las KPIs
 
@@ -133,16 +132,17 @@ En consideración de los hallazgos derivados del estudio, las siguientes son rec
 
 1. Optimización financiera:
 
-  1.1 Aumentar el margen existente del 4.76% mediante un estudio de costos realizado y negociaciones con proveedores.
+    1.1 Aumentar el margen existente del 4.76% mediante un estudio de costos realizado y negociaciones con proveedores.
   
-  1.2 Establecer un sistema de compras por volumen en las categorías de mejor rendimiento.
+    1.2 Establecer un sistema de compras por volumen en las categorías de mejor rendimiento.
 
 2. Segmentación y marketing:
   
-  2.1 Orientar campañas a géneros específicos: Deportes/Viajes para hombres y Comida/Hogar para mujeres.
+    2.1 Orientar campañas a géneros específicos: Deportes/Viajes para hombres y Comida/Hogar para mujeres.
+
 
 3. Optimización operativa:
   
-  4.1 Adicionar promociones en ciertos días (especialmente jueves) que generan menos tráfico.
+    3.1 Adicionar promociones en ciertos días (especialmente jueves) que generan menos tráfico.
   
-  4.2 Mantener un registro de los niveles de stock por categoría y reponer el stock según el pronóstico de ventas en días específicos.
+    3.2 Mantener un registro de los niveles de stock por categoría y reponer el stock según el pronóstico de ventas en días específicos.
