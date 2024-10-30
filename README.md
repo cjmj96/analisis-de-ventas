@@ -60,7 +60,7 @@ picos de hasta €27,018, en contraste con los jueves que registran el volumen
 más bajo (€17,608). Las siguientes secciones explorarán factores y resaltar áreas de oportunidad
 claves para mejorar.
 
-Abajo esta el dashboard realizado en Excel. El dashboard interactivo completo puede ser visto [aquí](https://1drv.ms/x/s!ApUe3nTukn-rawkMI6-e0Z-Xsdo?e=zGF9zV).
+Abajo esta el dashboard realizado en Excel. El dashboard interactivo completo puede ser visto [aquí](https://1drv.ms/x/s!ApUe3nTukn-rawkMI6-e0Z-Xsdo?e=patDZ5).
 
 [![Dashboard de analisis de ventas](./dashboard-analisis-de-ventas.PNG)](https://1drv.ms/x/s!ApUe3nTukn-rawkMI6-e0Z-Xsdo?e=patDZ5)
 
