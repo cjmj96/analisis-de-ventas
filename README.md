@@ -44,105 +44,125 @@ Se utilizó un conjunto de datos que contiene las transacciones de ventas de la 
 ### Visión general de descubrimientos
 
 
-El análisis integral del desempeño comercial durante 2021 revela un panorama empresarial
-estable con áreas estratégicas de oportunidad para Costa Centro Comercio (CCC). Con unas
-ventas totales de €164,998 y un beneficio de €7,857, la empresa mantuvo un margen de
-beneficio del 4.76%, destacándose la categoría de Deportes y Viajes como la líder en
-ventas con €30,078. La segmentación por género mostró patrones de consumo diferenciados,
-con los hombres prefiriendo Deportes y viajes (€15,568) y las mujeres inclinándose hacia Comida y
-bebidas (€15,728). Los métodos de pago reflejan una transición gradual hacia
-la digitalización, con el efectivo liderando con un 37%, seguido por las
-billeteras electrónicas (33%) y las tarjetas de crédito (30%). La base de
-clientes muestra un notable equilibrio entre usuarios regulares (50.09%) y
-miembros (49.91%), mientras que la distribución semanal de ventas identifica
-los martes, viernes y sábados como los días de mayor actividad comercial, con
-picos de hasta €27,018, en contraste con los jueves que registran el volumen
-más bajo (€17,608). Las siguientes secciones explorarán factores y resaltar áreas de oportunidad
-claves para mejorar.
+El análisis de ventas de CCC para el año 2021 revela un panorama estable con areas de mejora. Se tuvieron ventas 
+totales €164,998 y un beneficio de €7,857, la empresa mantuvo un margen de beneficio del 4.76%. En las siguientes 
+secciones se explorará en detalle lo anteriormente mencionado.
 
-Abajo esta el dashboard realizado en Excel. El dashboard interactivo completo puede ser visto [aquí](https://1drv.ms/x/s!ApUe3nTukn-rawkMI6-e0Z-Xsdo?e=patDZ5).
+
+El dashboard interactivo implementado en Excel,  puede ser encontrado  [aquí](https://1drv.ms/x/s!ApUe3nTukn-rawkMI6-e0Z-Xsdo?e=patDZ5).
+
+
 
 [![Dashboard de analisis de ventas](./dashboard-analisis-de-ventas.PNG)](https://1drv.ms/x/s!ApUe3nTukn-rawkMI6-e0Z-Xsdo?e=patDZ5)
 
 ### Análisis de las KPIs
 
 
+
+
+
 En 2021, la empresa logró unas ventas totales de €164,998, con un costo de ventas de €157,141 y 
-un beneficio resultante de €7,857. Esto se traduce en un margen de beneficio del 4.76%, que es 
-bajo, pero aún así es alentador.
+un beneficio resultante de €7,857.  Lo anterior se traduce en un margen de beneficio del 4.76%, siendo bajo, pero alentador.
+
+
 
 ### Análisis de líneas de productos
 
-Las diversas líneas de productos se analizan en un análisis detallado y muestran una tendencia 
-uniforme en todas las categorías. Deportes y viajes encabezan la lista con ventas de €30,078 y 
-una ganancia de €1,432. Los siguientes contendientes, Hogar y estilo de vida y Salud y belleza, 
-lograron cada uno alcanzar ventas por valor de €28,487 y ganaron €1,357 cada uno en 
-beneficios. Los sectores conocidos como Alimentos y bebidas lograron vender mercancías por un 
-valor de €28,328 junto con un beneficio de €1,349. Los márgenes de beneficio en las diferentes 
-categorías se mantienen estables entre el 4.7% y el 4.8%, lo que muestra que la empresa utiliza un enfoque de precios similar.
+
+
+Las líneas de productos muestran una tendencia uniforme en las diferentes métricas de rendimiento 
+usadas. Deporte y viajes encabezan la lista con ventas de €30,078 y una ganancia de €1,432. Los 
+siguientes contendientes, Hogar/estilo de vida y salud/belleza, lograron ventas por valor de 
+€28,487, y ganaron €1,357 en beneficio. Los sectores de alimentos y bebidas lograron ventas de 
+€28,328 y un beneficio de €1,349. Los márgenes de beneficio  son estables con valores entre 4.7 a 4.8%.
+
+
 
 ![distribucion-de-kpis-por-linea-de-producto](./distribucion-de-kpis-por-linea-de-producto.PNG)
 
 
+
+
+
 ### Análisis por género y producto
 
-Los patrones de consumo son diferentes cuando se trata de género. Los niveles de género masculino 
-tuvieron la mayor demanda en Deportes y Viajes con €15,568, mientras que Salud y Belleza y Accesorios 
-de Moda fueron de €13,669 y €13,468 respectivamente. Las mayores ventas fueron de Alimentos y Bebidas 
-entre los Niveles Femeninos con €15,728, seguidas por Hogar y Estilo de Vida con €15,142, mientras 
-que Deportes y Viajes ganaron €14,510 en el mismo segmento. 
+
+
+Los patrones de consumo a nivel de género revelan que los clientes masculinos, gastaron más en la 
+línea de deportes y viajes con €15,568, mientras que salud/belleza y accessorios de moda, €13,669 
+y €13,468 respectivamente. La línea de producto más vendida para clientes femeninos es alimentos 
+y bebidas con €15,728 seguidas por hogar/estilo de vida con €15,142, la línea menos vendida es la 
+de deportes y viajes con €14,510.
+
+
+
+
 
 ![3-lineas-de-productos-mas-vendidos-por-ingresos-y-genero](./3-lineas-de-productos-mas-vendidos-por-ingresos-y-genero.PNG)
+
+
 
 ### Análisis de métodos de pago
 
 
 
-La distribución de los pagos muestra una preferencia significativa por el efectivo, representando el 
-37% de las transacciones, seguido por las billeteras electrónicas con un 33% y las tarjetas de 
-crédito con un 30%.
+La distribución del método de pago demuestra que un poco más de un tercio de los clientes prefiere usar 
+efectivo (37%), seguido de billeteras electrónicas (33%) y tarjetas de crédito (%30).
+
+
 
 ![distribucion-de-ventas-por-medio-de-pago](./distribucion-de-ventas-por-medio-de-pago.PNG)
+
+
+
 
 
 ### Análisis por tipo de cliente
 
 
 
-La distribución entre clientes regulares (50.09%) y miembros (49.91%) muestra un equilibrio casi 
-perfecto en la base de clientes.
+La distribución de los clientes por su tipo de membresía revela que hay casi un equilibrio en la 
+base de clientes. Los clientes regulares abarcan un 50.09% de la base de clientes, mientras 
+que los clientes miembros un 49.91%.
+
+
 
 ![distribucion-de-ventas-por-tipo-de-clientes](./distribucion-de-ventas-por-tipo-de-clientes.PNG)
+
+
+
 
 
 ### Análisis por día de la semana
 
 
 
+
+
+
+
 El patrón de ventas semanales muestra picos notables los martes (€27,018), viernes y 
-sábados (ambos con €26,007). El domingo mantiene un volumen respetable de €23,434, 
-mientras que el jueves registra el volumen más bajo con €17,608. 
+sábados (ambos con €26,007). El domingo mantiene un volumen respetable de €23,434, mientras 
+que el jueves registra el volumen más bajo con €17,608. 
+
+
 
 ![distribucion-de-ventas-por-dia-de-la-semana](./distribucion-de-ventas-por-dia-de-la-semana.PNG)
 
 
+
 ## Recomendaciones
 
-En consideración de los hallazgos derivados del estudio, las siguientes son recomendaciones importantes clasificadas por áreas estratégicas: 
-
-1. Optimización financiera:
-
-    1.1 Aumentar el margen existente del 4.76% mediante un estudio de costos realizado y negociaciones con proveedores.
-  
-    1.2 Establecer un sistema de compras por volumen en las categorías de mejor rendimiento.
-
-2. Segmentación y marketing:
-  
-    2.1 Orientar campañas a géneros específicos: Deportes/Viajes para hombres y Comida/Hogar para mujeres.
+Estas son las recomendaciones que propongo basado en los descubrimientos obtenidos mediante el análisis de ventas: 
 
 
-3. Optimización operativa:
-  
-    3.1 Adicionar promociones en ciertos días (especialmente jueves) que generan menos tráfico.
-  
-    3.2 Mantener un registro de los niveles de stock por categoría y reponer el stock según el pronóstico de ventas en días específicos.
+- Optimización financiera: Impulsar el margen existente (4.76%) mediante el establecimiento de un sistema de compras 
+por volumen en las líneas de producto con mejor rendimiento. 
+
+
+- Segmentación y marketing: Orientar campañas basados en género al promover las líneas de producto más vendida como 
+deportes/viajes para hombres y comida/hogar para mujeres. 
+
+
+- Optimización operativa: Mantener un registro de los niveles de stock por categoría y reponer el stock según el 
+pronóstico de ventas en días específicos. 
